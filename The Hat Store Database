@@ -1,0 +1,27 @@
+--Create a hat store database
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, color TEXT, size TEXT, price INTEGER);
+
+INSERT INTO store VALUES (1, "puma hat", "blue", "S", "$4.99");
+INSERT INTO store VALUES (2, "puma hat", "blue", "M", "$4.99");
+INSERT INTO store VALUES (3, "puma hat", "blue", "L", "$4.99");
+
+INSERT INTO store VALUES (4, "addidas hat", "red", "S", "$5.99");
+INSERT INTO store VALUES (5, "addidas hat", "red", "M", "$5.99");
+INSERT INTO store VALUES (6, "addidas hat", "red", "L", "$5.99");
+
+INSERT INTO store VALUES (7, "rebok hat", "white", "S", "$6.99");
+INSERT INTO store VALUES (8, "rebok hat", "white", "M", "$6.99");
+INSERT INTO store VALUES (9, "rebok hat", "white", "L", "$6.99");
+
+INSERT INTO store VALUES (10, "puma hat", "black", "S", "$7.99");
+INSERT INTO store VALUES (11, "puma hat", "black", "M", "$7.99");
+INSERT INTO store VALUES (12, "puma hat", "black", "L", "$7.99");
+
+INSERT INTO store VALUES (13, "new balance hat", "green", "S", "$3.99");
+INSERT INTO store VALUES (14, "new balance hat", "green", "M", "$3.99");
+INSERT INTO store VALUES (15, "new balance hat", "green", "L", "$3.99");
+
+--Display the database ordered by price
+
+SELECT * FROM store ORDER BY price;
