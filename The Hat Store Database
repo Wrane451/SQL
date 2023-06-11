@@ -1,6 +1,6 @@
 --Create a hat store database
 
-CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, color TEXT, size TEXT, price INTEGER);
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, color TEXT, size TEXT, price TEXT);
 
 INSERT INTO store VALUES (1, "puma hat", "blue", "S", "$4.99");
 INSERT INTO store VALUES (2, "puma hat", "blue", "M", "$4.99");
